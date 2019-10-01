@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://github.com/dsamruddhi/MalariaDetection/blob/master/models/model.h5?raw=true'
+export_file_url = 'https://github.com/virajbhalala/MalariaDetection/blob/master/model.h5?raw=true'
 export_file_name = 'model.h5'
 
 classes = ['Parasitized', 'Uninfected']
