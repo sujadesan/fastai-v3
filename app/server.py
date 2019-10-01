@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://github.com/sayakpaul/Malaria-Detection-with-Deep-Learning/blob/master/model/Malaria-Detection-Model.pkl'
+export_file_name = 'Malaria-Detection-Model.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Parasitized','Uninfected']
 path = Path(__file__).parent
 
 app = Starlette()
